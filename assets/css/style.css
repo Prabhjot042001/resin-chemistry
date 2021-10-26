@@ -1,0 +1,74 @@
+body{
+    background-color: bisque;
+    font-family: "Nunito", sans-serif;
+}
+.HeadingGroup  h3{
+    color: blueviolet;
+    font-size: 2rem;
+    font-weight: 150;
+    line-height: 1.5;
+}
+.HeadingGroup h2{
+    color: #FF1493;
+    font-weight: 150;
+    font-size: 2.5rem;
+}
+.content{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#mainNavbar .nav-link{
+    color: white;
+    font-weight: bolder;
+}
+#mainNavbar .nav-link:hover{
+    color: #FF1493;
+}
+#mainNavbar .navbar-brand{
+    font-weight: bold;
+    color: #FF1493;
+}
+
+#mainNavbar{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+#Aboutt{
+    color: #9370DB;
+    font-weight: 150;
+    font-size: 2rem;
+}
+#Aboutt h2{
+    font-weight: 150;
+    font-size: 2.5rem; 
+}
+#Aboutt1 p{
+    color:#FF1493 ;
+    font-weight: 150;
+    font-size: 1.5rem;
+}
+#Aboutt1 h2{
+    color: #9370DB;
+    font-weight: 150;
+    font-size: 2.5rem; 
+}
+#Aboutt2 p{
+    color:#9370DB;
+    font-weight: 150;
+    font-size: 1.5rem;
+}
+#Aboutt2 h2{
+    color: #FF1493;
+    font-weight: 150;
+    font-size: 2.5rem; 
+}
+
+.navbar.scrolled {
+    background:	#66CDAA;
+    transition: background 500ms;
+}
+@media (max-width:1200px){
+    #HeadingGroup h1{
+        font-size: 2rem;
+    }
+}
